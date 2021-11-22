@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    line-height: 1.4;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    max-width: 1230px;
+    width: 100%;
+    padding: 15px 15px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header {
+    background: url('../img/apples.jpg') no-repeat center/cover;
+    padding: 40px 0 100px 0;
+    margin-bottom: 60px;
+}
+
+.header__logo p a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.header__menu-list {
+    display: flex;
+}
+
+.header__menu-item {
+    margin-left: 50px;
+}
+
+.header__menu-item:first-child {
+    margin-left: 0;
+}
+
+.header__title-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.header__title {
+    color: #fff;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.header__title-description {
+    color: #fff;
+    padding: 0 0 100px 0;
+}
+
+.header__title-btn {
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    background-color: #70575757;
+    cursor: pointer;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+h4 {
+    font-weight: 400;
+}
+
+.text1 {
+    width: 40%;
+    margin-right: 10%;
+    font-size: 18px;
+}
+
+.text1 span {
+    font-weight: 600;
+}
+
+.text2 {
+    width: 50%;
+}
+
+.product__description {
+    margin-bottom: 100px;
+}
+
+.article {
+    background-color: rgb(173, 169, 169);
+    margin-bottom: 100px;
+    padding-bottom: 40px;
+}
+
+h2 span {
+    font-weight: 900;
+}
+
+.article__title {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.aricle__inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.article__box-img {
+    width: 60%;
+}
+
+.article__text {
+    width: 30%;
+    text-align: center;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    left: 12px;
+    bottom: 12px;
+    color: #fff;
+
+}
+
+
+figure::before {
+    content: "171 ♥";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    border: solid 2px #fff;
+    background-color:#70575757;
+    top: 14px;
+    right: 26px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.form__inner {
+    background-color: #fff;
+    min-height: 150px;
+}
+
+.form__inner p span {
+    font-weight: 600;
+}
+
+.form__inner p {
+  font-size: 23px;
+  width: 40%;
+  padding-left: 50px;
+}
+
+form {
+    width: 80%;
+}
+
+.form__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article__form {
+    border: 1px solid black;
+    width: 80%;
+    min-height: 70px;
+    padding: 0 0 0 20px;
+}
+
+.article__button {
+    min-height: 70px;
+    background-color: rgba(70, 63, 63, 0.253);
+    border: 1px solid black;
+    padding: 0 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.colum__footer {
+    width: 20%;
+    margin-right: 20px;
+}
+
+.colum__footer-last {
+    width: 30%;
+}
+
+.colum__footer p, .colum__footer-last p {
+    color: rgb(173, 169, 169);
+    font-style: italic;
+}
+
+.footer_input {
+    border: 1px solid black;
+    max-width: 157px;
+    width: 100%;
+    padding: 5px 5px;
+}
+
+.footer__button {
+    background-color: rgba(70, 63, 63, 0.253);
+    border: 1px solid black;
+    cursor: pointer;
+    color: #fff;
+    padding: 5px 5px;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: grey;
+    margin-bottom: 30px;
+}
+
+.footer__logo a {
+    color: gray;
+}
+
+.footer__menu-link {
+    color: black;
+}
+
+.footer__menu-list {
+    display: flex;
+}
+
+.footer__menu-item {
+    margin-left: 20px;
+}

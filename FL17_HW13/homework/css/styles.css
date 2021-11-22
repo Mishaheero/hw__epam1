@@ -1,0 +1,551 @@
+/*
+* Colors used in design.
+*   primary: #0078aa;
+*   dark: #363636;
+*   light: #fff;
+*/
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.4;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1230px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 50px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 15px;
+  right: 15px;
+  padding: 15px 0px;
+}
+
+
+
+.header__menu-list {
+  display: flex;
+}
+
+.header__menu-item {
+  margin-left: 50px;
+}
+
+.header__menu-item:first-child {
+  margin-left: 0;
+}
+
+.header__title-inner {
+  background: url('../img/lady.jpg') no-repeat center/cover;
+}
+
+.header__menu-link {
+  color: black;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.header__title-container {
+  max-width: 500px;
+  width: 100%;
+  margin: 100px 0;
+}
+
+.header__title {
+  margin-bottom: 50px;
+}
+
+.header__title-description {
+  margin-bottom: 30px;
+}
+
+.icons-bg {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background-color: cornflowerblue;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  border: 2px solid transparent;
+}
+
+.icons {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+}
+#about {
+  position: relative;
+}
+
+.header__menu-link:hover {
+  color: #0078aa;
+  transition: 0.5s;
+}
+
+.icons-bg:hover {
+  background-color: #fff;
+  border: 2px solid #0078aa;
+}
+
+.icons:hover {
+   color: #0078aa;
+}
+
+#about::after {
+  position: absolute;
+  content: '↑';
+  background-color: cornflowerblue;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  top: 0;
+  right: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+.about__title-inner {
+  display: flex;
+}
+
+.header__title-icon {
+  display: flex;
+}
+
+.bg-image {
+  width: 50%;
+}
+
+.about__title-container {
+  width: 30%;
+  margin: 0 10px;
+}
+
+.about__title {
+  margin-bottom: 20px;
+}
+
+.about__title-description {
+  margin-bottom: 10px;
+}
+
+.about__title-description--link {
+  color: aqua;
+  text-transform: uppercase;
+}
+
+.paragraf__title {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.arrow {
+  color: aqua;
+  margin-right: 10px;
+}
+
+.about__paragraf {
+  margin-bottom: 5px;
+}
+
+#services {
+  background: url('../img/services_bg.jpg') no-repeat center/cover;
+  padding-top: 100px;
+}
+
+.services__title, .services__title-description {
+  text-align: center;
+}
+
+.services__title {
+  font-size: 30px;
+}
+
+.services__title-description {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+.sevices__offer-box {
+  width: 31%;
+  background-color: #fff;
+  margin: 0 20px 20px 0;
+  padding: 20px;
+}
+
+.services__inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-bottom: 100px;
+}
+
+.services__title-offer {
+  margin-bottom: 10px;
+}
+
+#services {
+  margin-bottom: 100px;
+}
+
+#pricing {
+  background: url('../img/pricing_bg.jpg') no-repeat center/cover;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+}
+.pricing__inner {
+  display: flex;
+}
+
+.pricing__title, .pricing__description {
+  text-align: center;
+  justify-content: space-around;
+}
+
+.pricing__title{
+  font-size: 30px;
+}
+
+.pricing__description {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+.pricing__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+.pricing__card1 {
+  width: 33%;
+  background-color: aqua;
+  padding: 30px 20px 15px 20px;
+  color: #fff;
+}
+.pricing__list li {
+  margin-bottom: 10px;
+}
+.title__card {
+  font-weight: 600;
+}
+
+.price__card {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.text__price {
+  font-style: italic;
+}
+
+.pricing__btn {
+  border: 1px solid #0078aa;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 5px 10px;
+  color: #0078aa;
+  font-weight: 600;
+}
+
+.pricing__card2 {
+  width: 33%;
+  background-color:#fff;
+  padding: 30px 20px 15px 20px;
+  border: 1px solid aqua;
+  color: #0078aa;
+  transform: scale(1.1);
+}
+
+.pricing__card3 {
+  width: 33%;
+  background-color: aqua;
+  padding: 30px 20px 15px 20px;
+  color: #fff;
+}
+
+.contact__inner {
+  display: flex;
+}
+
+.contact__form-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__container-form {
+  width: 50%;
+}
+
+.contact__title {
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.input__text {
+   font-style: italic;
+}
+
+.contact__form-inner input, select {
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.411);
+}
+
+.contact__container-img {
+  margin-right: 50px;
+}
+
+
+.contact__title-description {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.contact__btn {
+  width: 80px;
+  height: 40px;
+  color: #fff;
+  border-radius: 10px;
+  background-color: #0078aa;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.contact__btn:hover {
+  border: 1px solid #0078aa;
+  background-color: #fff;
+  color: #0078aa;
+  transition: 0.5s;
+}
+
+input,select {
+  height: 50px;
+}
+
+.footer {
+ background-color: #363636;
+ padding: 50px 0;
+}
+
+.footer {
+  text-align: center;
+  color: #fff;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .header {
+    margin-bottom: 20px;
+  }
+  .bg-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+  }
+  .about__title-inner {
+    justify-content: space-between;
+  }
+  #about {
+    margin-bottom: 30px;
+  }
+  #about::after {
+    top: 300px;
+  }
+  #services {
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+  .services__inner {
+    padding-bottom: 50px;
+  }
+
+  .services__title-offer {
+    font-size: 14px;
+  }
+  .services__description {
+    font-size: 12px;
+  }
+
+  .sevices__offer-box {
+    width: 29%;
+  }
+
+  .contact__title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .contact__form-inner input {
+    margin-bottom: 10px;
+  }
+  .contact__title-description {
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  input {
+    height: 30px;
+  }
+  .contact__container-img {
+    margin-right: 25px;
+    width: 60%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+  .header__inner {
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+  .header__title-container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     margin: 0;
+     max-width: none;
+  }
+  .header__title {
+    font-size: 50px;
+  }
+  .about__title-inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bg-image {
+    width: 80%;
+  }
+  #about::after {
+    top: 100px;
+    right: 100px;
+  }
+  .about__title-container {
+    width: 80%;
+    text-align: center;
+    margin: 30px 10px;
+  }
+  #about {
+    margin-bottom: 20px;
+  }
+  #services {
+    padding-top: 0;
+    margin-bottom: 30px;
+  }
+  .services__inner {
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+  .sevices__offer-box {
+    width: 100%;
+  }
+  .pricing__inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pricing__card1, .pricing__card2, .pricing__card3  {
+    width: 100%;
+  }
+  #pricing {
+    padding-bottom: 0;
+    margin-bottom: 20px;
+  }
+  .contact__container-img {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .contact__inner {
+    flex-direction: column;
+  }
+  .contact__container-form {
+    width: 100%;
+    padding: 0 25px;
+  }
+  .contact__title {
+    text-align: center;
+  }
+  .contact__title-description {
+    text-align: center;
+  }
+  .contact__btn {
+    margin: 0 auto;
+  }
+  #contact {
+    margin-bottom: 20px;
+  }
+  .pricing__card2 {
+    transform: none;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 530px){
+  .header__menu-link {
+    font-size: 12px ;
+  }
+  .header__menu-item {
+    margin-left: 10px;
+  }
+  .header__title {
+    font-size: 30px;
+  }
+}
+  
+
+
+
+
